@@ -20,12 +20,13 @@
 <h2>Student Helpdesk Chatbot</h2>
 <p>Ask about fees, exams, syllabus & more</p>
 
-<iframe
-  allow="microphone;"
-  width="350"
-  height="430"
-  src="https://console.dialogflow.com/api-client/demo/embedded/aac87190-159b-4c74-bbf7-8edfb0cadf50">
-</iframe>
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="StudentHelpDesk"
+  agent-id="aac87190-159b-4c74-bbf7-8edfb0cadf50"
+  language-code="en"
+></df-messenger>
 
 </body>
 </html>
